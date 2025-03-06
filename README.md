@@ -52,12 +52,12 @@ int main(void) {
 
 ## Compilation and execution
 
-1. Compile the program and link it with libasm.so
+1. Compile the program and link it with libasm.so:
 ```sh
 gcc main.c -L. -lasm -Wl,-rpath=.
 ```
 
-2. Run the program
+2. Run the program with the library:
 ```sh
 LD_LIBRARY_PATH=. ./a.out
 ```
