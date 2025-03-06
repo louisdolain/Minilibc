@@ -1,0 +1,7 @@
+test
+*.o
+libasm.so
+a.out
+output*
+test.sh
+.DS_Store
